@@ -10,6 +10,8 @@ import { SiderbarComponent } from './components/siderbar/siderbar.component';
 import { ToolsComponent } from './components/tools/tools.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { RegisterComponent } from './components/register/register.component';
     SiderbarComponent,
     ToolsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DashboardComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
